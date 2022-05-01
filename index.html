@@ -135,6 +135,7 @@
 	const showMenue = document.querySelector('.nav-items');
 	const navitemouter = document.querySelector('.nav-item-outer');
 	const closeMenu = document.querySelector('.close-manu');
+	const nav = document.querySelector('.nav');
 
 	menuIcon.addEventListener('click', show);
 	closeMenu.addEventListener('click', close);
@@ -143,6 +144,7 @@
 	{
 		//showMenue.setAttribute('style', 'margin:0%');// = 'flex important!';
 		//showMenue.setAttribute('style', 'display:flex');// = 'flex important!';
+		nav.setAttribute('style', 'height:auto');
 		navitemouter.setAttribute('style', 'display:block');
 		closeMenu.setAttribute('style', 'display:block');
 		menuIcon.setAttribute('style', 'display:none');
@@ -150,6 +152,7 @@
 
 	function close()
 	{
+			nav.setAttribute('style', 'height:25vh')
 			closeMenu.setAttribute('style', 'display:none');
 		  menuIcon.setAttribute('style', 'display:block');
 		  navitemouter.setAttribute('style', 'display:none');
