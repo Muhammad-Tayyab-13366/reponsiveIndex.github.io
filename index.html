@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Blog</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+</head>
+<body>
+	<div class="container-main">
+		<div class='container-nav'>
+			<nav class="nav">
+				<a href="" class="navbar-brand">
+					<span class='brand-color-orange'>D</span><span class='brand-color-white'>ot</span><span class='brand-color-orange'>C</span><span class='brand-color-white'>om</span>
+				</a>
+				 
+        <!-- <img class="burger-manu" src="img/buger-menu.png" style="width: 3%;"> -->
+        <div class="burger-manu" >
+	        <i class="fa fa-bars" aria-hidden="true" style="color: white;"></i>
+	       </div>
+	       <div class="close-manu">
+	       		<i class="fa fa-times" aria-hidden="true" style="color: white;"></i>
+	       </div>
+        <div class="nav-item-outer">
+					<div class="nav-items">
+						<a href="index.html" class="nav-item nav-link active">Home</a>
+	                    <a href="about.html" class="nav-item nav-link">About</a>
+	                    <a href="service.html" class="nav-item nav-link">Services</a>
+	                    <a href="pricing.html" class="nav-item nav-link">Pricing</a>
+	                   <!--  <div class="nav-item dropdown"> -->
+	                    <a href="#" class="nav-item nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
+	                       <!--  <div class="dropdown-menu border-0 rounded-0 m-0">
+	                            <a href="blog.html" class="dropdown-item">Blog Grid</a>
+	                            <a href="single.html" class="dropdown-item">Blog Detail</a>
+	                        </div> -->
+	                    <!-- /div> -->
+	                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+					</div>
+				</div>
+			</nav>
+		</div>
+		<div class="page-header">
+
+		<!-- <h1>Home</h1> -->
+			
+		</div>
+
+		<div class="page-content">
+			<div class="about-thumbnail">
+				<div class="thumbnail-img">
+					<img src="img/about.jpg">
+				</div>
+				<div class="about-p">
+					<small class="bg-primary text-white text-uppercase font-weight-bold px-5">Who We Are</small>
+					<h1>Most Effective Creative Service Provider For Companies</h1>
+					<p>
+						Eirmod est dolor nonumy sea amet dolore erat sit dolor et dolor vero.
+						Tempor ipsum at justo amet at ipsum justo.
+						Aiam kasd sea sit dolor duo elitr dolor amet,
+						justo est ipsum amet dolor ut ipsum. Labore diam et nonumy amet dolores.
+						Volup sit labore dolores erat, magna justo sed lorem kasd ea dolor.
+						Labore sit clita invidunt, est dolores lorem sed ipsum kasd no amet ipsum.
+					</p>
+					<a href="" class="btn btn-primary py-md-2 px-md-4 font-weight-semi-bold">Read More</a>
+				</div>
+
+			</div>
+			<div class="contact">
+				<div class="col-md-4">
+               <div class="contact-item d-flex align-items-center border mb-4 mb-lg-0 p-4" style="">
+                  <i class="fa fa-2x fa-map-marker-alt text-primary mr-3"></i>
+                  <div class="d-flex flex-column">
+                      <h5 class="font-weight-bold">Our Office</h5>
+                      <p class="m-0">123 Street, New York, USA</p>
+                  </div>
+               </div>
+            </div>
+				<div class="col-md-4">
+               <div class=" contact-item d-flex align-items-center border mb-4 mb-lg-0 p-4" style="">
+                  <i class="fa fa-2x fa-envelope-open text-primary mr-3"></i>
+                  <div class="d-flex flex-column">
+                      <h5 class="font-weight-bold">Email Us</h5>
+                      <p class="m-0">info@example.com</p>
+                  </div>
+               </div>
+             </div>
+				<div class="col-md-4">
+              <div class="contact-item  d-flex align-items-center border mb-4 mb-lg-0 p-4" style="">
+                  <i class="fas fa-2x fa-phone-alt text-primary mr-3"></i>
+                  <div class="d-flex flex-column">
+                      <h5 class="font-weight-bold">Call Us</h5>
+                      <p class="m-0">+012 345 6789</p>
+                  </div>
+               </div>
+               </div>
+				</div>
+
+
+							<div class="about-thumbnail">
+				<div class="thumbnail-img">
+					<img src="img/about.jpg">
+				</div>
+				<div class="about-p">
+					<small class="bg-primary text-white text-uppercase font-weight-bold px-5">Who We Are</small>
+					<h1>Most Effective Creative Service Provider For Companies</h1>
+					<p>
+						Eirmod est dolor nonumy sea amet dolore erat sit dolor et dolor vero.
+						Tempor ipsum at justo amet at ipsum justo.
+						Aiam kasd sea sit dolor duo elitr dolor amet,
+						justo est ipsum amet dolor ut ipsum. Labore diam et nonumy amet dolores.
+						Volup sit labore dolores erat, magna justo sed lorem kasd ea dolor.
+						Labore sit clita invidunt, est dolores lorem sed ipsum kasd no amet ipsum.
+					</p>
+					<a href="" class="btn btn-primary py-md-2 px-md-4 font-weight-semi-bold">Read More</a>
+				</div>
+
+			</div>
+		</div>
+
+	</div>
+	
+
+
+</body>
+</html>
+<script type="text/javascript">
+	
+	const menuIcon = document.querySelector('.burger-manu');
+	const showMenue = document.querySelector('.nav-items');
+	const navitemouter = document.querySelector('.nav-item-outer');
+	const closeMenu = document.querySelector('.close-manu');
+
+	menuIcon.addEventListener('click', show);
+	closeMenu.addEventListener('click', close);
+
+	function show()
+	{
+		//showMenue.setAttribute('style', 'margin:0%');// = 'flex important!';
+		//showMenue.setAttribute('style', 'display:flex');// = 'flex important!';
+		navitemouter.setAttribute('style', 'display:block');
+		closeMenu.setAttribute('style', 'display:block');
+		menuIcon.setAttribute('style', 'display:none');
+	}
+
+	function close()
+	{
+			closeMenu.setAttribute('style', 'display:none');
+		  menuIcon.setAttribute('style', 'display:block');
+		  navitemouter.setAttribute('style', 'display:none');
+	}
+</script>
