@@ -177,9 +177,7 @@ body{
         display: none;
     }
 
-.nav-item-outer{
-        display: none;
-    }
+
 
 
 @media screen and (max-device-width: 770px){
@@ -188,7 +186,9 @@ body{
         background: red;
     }*/
 
-   
+   .nav-item-outer{
+        display: none;
+    }
 
     .container-nav {
         width: 100%;
@@ -234,6 +234,7 @@ body{
         padding-right: 40px;
 
     }
+
 
     .nav-item-outer{
         flex-basis: 100%;
@@ -303,6 +304,8 @@ body{
         font-size: 40px;
         margin: 0 30px 0px 0;
     }
+
+    
 
 }
 
