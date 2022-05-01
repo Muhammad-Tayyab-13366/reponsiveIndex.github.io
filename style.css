@@ -1,11 +1,11 @@
 body{
-	margin: 0px;
-	padding: 0px;
-	 font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+     font-family: sans-serif;
 }
 
 .nav{
-	display: flex;
+    display: flex;
     justify-content: space-between;
     height: 20vh;
     align-items: center;
@@ -24,13 +24,13 @@ body{
 }
 
 .page-header{
-	background: url(img/header.jpg);
+    background: url(img/header.jpg);
 }
 
 .container-nav{
-	position: absolute;
-	z-index: 999;
-	width: 86%;
+    position: absolute;
+    z-index: 999;
+    width: 86%;
     margin-left: 7%;
     margin-right: 7%;
 }
@@ -44,17 +44,17 @@ body{
 }
 
 .navbar-brand{
-	text-decoration: none;
+    text-decoration: none;
     font-weight: bolder;
     font-size: 59px;
 }
 
 .brand-color-orange{
-	color: #FDAC53 !important
+    color: #FDAC53 !important
 }
 
 .brand-color-white{
-	color: white;
+    color: white;
 }
 
 .page-content{
